@@ -10,7 +10,7 @@
 	</div>
 </nav>
 
-<main class="p-4">
+<main class="p-4 h-[89.33dvh]">
 	<div class="heroSection inline-flex h-96 w-full flex-col items-center justify-center gap-2.5 p-2.5">
 		<div class="heroHeader font-['Inter'] text-6xl font-extrabold text-white">
 			The place to share your apps.
