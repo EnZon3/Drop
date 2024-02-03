@@ -1,3 +1,7 @@
+<script>
+	import { Heart, MessageSquare, Play } from "lucide-svelte"
+</script>
+
 <nav class="bg-grey p-4">
 	<div class="flex items-center justify-between">
 		<!-- svelte-ignore a11y-invalid-attribute -->
@@ -10,9 +14,9 @@
 	</div>
 </nav>
 
-<main class="content-height p-4">
+<main class="front-content-height">
 	<div
-		class="heroSection inline-flex h-full w-full flex-col items-center justify-center gap-2.5 p-2.5"
+		class="heroSection inline-flex front-content-height w-full flex-col items-center justify-center gap-2.5 p-2.5"
 	>
 		<div class="heroHeader font-['Inter'] text-6xl font-extrabold text-white">
 			The place to share your apps.
@@ -32,7 +36,7 @@
 <main class="h-[100dvh] p-4  overflow-hidden">
 	<div class="features relative h-full w-full bg-slate-950">
 		<div
-			class="Frame4 absolute left-0 top-0 inline-flex h-96 w-[50dvw] items-center justify-center gap-6 p-2.5"
+			class="Frame4 absolute left-0 top-0 inline-flex h-96 w-[50dvw] items-center justify-center gap-6 p-[0px_2.5px_0px_2.5px]"
 		>
 			<div class="GetYourProjectOutThere font-['Inter'] text-4xl text-white">
 				<span class="font-regular">Get your project</span> <span class="font-black">out there</span>
@@ -58,15 +62,15 @@
 				</div>
 				<div class="Frame9 inline-flex h-6 w-72 items-center justify-start">
 					<div class="Frame10 flex w-12 items-center justify-start gap-0.5 py-2.5 pl-2.5 pr-1">
-						<div class="Play relative h-3 w-3"></div>
+						<Play class="relative h-3 w-3" />
 						<div class="5k font-['Inter'] text-xs font-bold text-white">1.5K</div>
 					</div>
 					<div class="Frame11 flex w-11 items-center justify-start gap-0.5 px-1 py-2.5">
-						<div class="Heart relative h-3 w-3"></div>
+						<Heart class="relative h-3 w-3" />
 						<div class=" font-['Inter'] text-xs font-bold text-white">246</div>
 					</div>
 					<div class="Frame12 flex w-11 items-center justify-start gap-0.5 px-1 py-2.5">
-						<div class="MessageSquareMore relative h-3 w-3"></div>
+						<MessageSquare class="relative h-3 w-3" />
 						<div class=" font-['Inter'] text-xs font-bold text-white">132</div>
 					</div>
 				</div>
