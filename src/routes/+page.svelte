@@ -12,7 +12,7 @@
 
 <main class="h-[79.33dvh] p-4">
 	<div
-		class="heroSection inline-flex h-96 w-full flex-col items-center justify-center gap-2.5 p-2.5"
+		class="heroSection inline-flex h-full w-full flex-col items-center justify-center gap-2.5 p-2.5"
 	>
 		<div class="heroHeader font-['Inter'] text-6xl font-extrabold text-white">
 			The place to share your apps.
@@ -34,7 +34,7 @@
 		<div
 			class="Frame4 absolute left-0 top-0 inline-flex h-96 w-[50dvw] items-center justify-center gap-6 p-2.5"
 		>
-			<div class="GetYourProjectOutThere font-['Inter'] text-3xl font-bold text-white">
+			<div class="GetYourProjectOutThere font-['Inter'] text-4xl font-bold text-white">
 				Get your project out there
 			</div>
 			<div
@@ -73,11 +73,31 @@
 			</div>
 		</div>
 		<div
-			class="Frame5 absolute left-[50%] top-[40%] inline-flex h-96 w-96 items-center justify-center gap-2.5 p-2.5"
+			class="Frame5 absolute left-[50%] top-[40%] inline-flex h-96 w-[50dvw] items-center justify-center gap-2.5 p-[2.5px_0px_2.5px_0px]"
 		>
 			<div>
-				<div class="text-white text-3xl font-bold font-['Inter']">While also getting<br /></div>
-				<div class="text-white text-3xl font-black font-['Inter']">valuable feedback</div>
+				<div class="font-['Inter'] text-3xl font-bold text-white">While also getting<br /></div>
+				<div class="font-['Inter'] text-3xl font-black text-white">valuable feedback</div>
+			</div>
+			<div
+				class="Frame6 inline-flex w-56 flex-col items-start justify-start rounded-xl border-2 border-blue-600 bg-slate-950 pb-[0.225rem] shadow"
+			>
+				<div class="Frame9 inline-flex h-6 items-center justify-start">
+					<div class="Frame10 flex items-center justify-start gap-0.5 py-2.5 pl-2.5 pr-1">
+						<div class="Play flex items-center justify-start gap-2.5">
+							<!-- svelte-ignore a11y-missing-attribute -->
+							<img class="Image1 h-[12px] w-[12px]" src="enzon3.gif" />
+						</div>
+						<div class="Enzon3 font-['Inter'] text-xs font-bold text-white">EnZon3</div>
+					</div>
+				</div>
+				<div class="Frame7 inline-flex items-start justify-start gap-2.5 px-2.5">
+					<div
+						class="SuperCoolConceptNavbarPaddingNeedsSomeWorkButOverallItSAwesome w-52 font-['Inter'] text-sm font-normal text-neutral-200"
+					>
+						Super cool concept! Navbar<br />padding needs some work but <br />overall it's awesome!
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
