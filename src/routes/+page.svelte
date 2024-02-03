@@ -10,7 +10,7 @@
 	</div>
 </nav>
 
-<main class="h-[79.33dvh] p-4">
+<main class="content-height p-4">
 	<div
 		class="heroSection inline-flex h-full w-full flex-col items-center justify-center gap-2.5 p-2.5"
 	>
