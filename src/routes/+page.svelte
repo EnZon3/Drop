@@ -9,7 +9,7 @@
 			<h1 class="text-3xl font-bold">Drop</h1>
 		</div>
 		<div>
-			<a href="#top" class="px-2 font-bold">Login</a>
+			<a href="/login" class="px-2 font-bold">Login</a>
 		</div>
 	</div>
 </nav>
@@ -27,9 +27,9 @@
 		<div
 			class="ctaButton inline-flex h-12 w-44 items-center justify-center gap-2.5 rounded-lg bg-blue-600 p-2.5"
 		>
-			<a href="/signup" class="SignUp cursor-pointer font-['Inter'] text-base font-bold text-white"
-				>Sign Up</a
-			>
+			<a href="/login" class="SignUp cursor-pointer font-['Inter'] text-base font-bold text-white">
+				Sign Up
+			</a>
 		</div>
 	</div>
 </main>
