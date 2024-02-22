@@ -16,7 +16,7 @@ Please note that this is a **work in progress** and is not yet ready for use.
 - [ ] Tags (Categories)
 - [ ] Search
 - [ ] Notifications
-- [] User profiles
+- [ ] User profiles
 - [ ] User settings
 - [ ] Admin panel
 - [ ] Moderation
