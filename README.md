@@ -9,14 +9,14 @@ Please note that this is a **work in progress** and is not yet ready for use.
 ## Feature Roadmap
 
 - [x] Basic project structure
-- [ ] User accounts
+- [x] User accounts
 - [ ] Project pages
 - [ ] Feedback (goes hand in hand with comments)
 - [ ] Featured, trending, new projects, FYP
 - [ ] Tags (Categories)
 - [ ] Search
 - [ ] Notifications
-- [ ] User profiles
+- [] User profiles
 - [ ] User settings
 - [ ] Admin panel
 - [ ] Moderation

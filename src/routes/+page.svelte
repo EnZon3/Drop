@@ -1,5 +1,9 @@
 <script>
 	import { Heart, MessageSquare, Play } from "lucide-svelte"
+
+	export let data;
+	let { supabase, session } = data;
+	$: ({ supabase, session } = data);
 </script>
 
 <nav class="bg-grey p-4">
