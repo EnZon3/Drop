@@ -10,8 +10,9 @@ export async function load({ locals: { supabase, getSession } }) {
 			.from('profiles')
 			.select('*')
 			.eq('username', username);
+		console.log(data);
 
-		if (!data) throw redirect(303, '/dashboard/onboarding');
+		if (!data || data.length === 0) throw redirect(303, '/dashboard/onboarding');
         
 	} catch (err) {
 		console.log(err);
