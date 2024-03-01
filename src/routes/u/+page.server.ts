@@ -12,10 +12,10 @@ export async function load({ locals: { supabase, getSession } }) {
 			.eq('username', username);
 		console.log(data);
 
-		if (!data || data.length === 0) throw redirect(303, '/dashboard/onboarding');
+		if (!data || data.length === 0) throw redirect(303, '/u/onboarding');
         
 	} catch (err) {
 		console.log(err);
-		throw redirect(303, '/dashboard/onboarding');
+		throw redirect(303, '/u/onboarding');
 	}
 }

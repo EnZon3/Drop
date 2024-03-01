@@ -16,8 +16,8 @@ Please note that this is a **work in progress** and is not yet ready for use.
 - [ ] Tags (Categories)
 - [ ] Search
 - [ ] Notifications
-- [ ] User profiles
-- [ ] User settings
+- [x] User profiles
+- [x] User settings (Got what it needs so far)
 - [ ] Admin panel
 - [ ] Moderation
 - [ ] Reporting

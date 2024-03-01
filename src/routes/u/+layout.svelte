@@ -15,7 +15,7 @@
 		LogOut
 	} from 'lucide-svelte';
 
-	const gotoDash = () => goto('/dashboard');
+	const gotoDash = () => goto('/u');
 
 	export let data;
 	let { supabase, session } = data;
@@ -80,12 +80,17 @@
 			<DropdownMenu.Group>
 				<DropdownMenu.Label>My Account</DropdownMenu.Label>
 				<DropdownMenu.Separator />
-				<DropdownMenu.Item href="/dashboard/profile"
+				<DropdownMenu.Item href="/u/profile"
 					><User class="mr-1.5 h-4 w-4" /> Profile</DropdownMenu.Item
 				>
-				<DropdownMenu.Item><Settings class="mr-1.5 h-4 w-4" /> Settings</DropdownMenu.Item>
+				<DropdownMenu.Item href="/u/settings">
+					<Settings class="mr-1.5 h-4 w-4" /> Settings
+				</DropdownMenu.Item>
 				<DropdownMenu.Separator />
-				<DropdownMenu.Item><LogOut class="mr-1.5 h-4 w-4" /> Log out</DropdownMenu.Item>
+				<DropdownMenu.Item href="/logout">
+					<LogOut class="mr-1.5 h-4 w-4" /> 
+					Log out
+				</DropdownMenu.Item>
 			</DropdownMenu.Group>
 		</DropdownMenu.Content>
 	</DropdownMenu.Root>

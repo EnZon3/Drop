@@ -43,6 +43,8 @@
 		"bits-ui": "^0.16.0",
 		"clsx": "^2.1.0",
 		"lucide-svelte": "^0.317.0",
+		"mode-watcher": "^0.2.1",
+		"svelte-sonner": "^0.3.19",
 		"tailwind-merge": "^2.2.1",
 		"tailwind-variants": "^0.1.20"
 	}

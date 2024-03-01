@@ -21,7 +21,7 @@
 			}])
 			.select();
 		
-		goto('/dashboard/profile');
+		goto('/u/profile');
 	};
 
 	onMount(() => {

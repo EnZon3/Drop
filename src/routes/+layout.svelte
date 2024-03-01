@@ -5,6 +5,7 @@
 	import { inject } from '@vercel/analytics';
 	import { invalidate } from '$app/navigation';
 	import { onMount } from 'svelte';
+	import { Toaster } from "$lib/components/ui/sonner";
 
 	inject({ mode: dev ? 'development' : 'production' });
 
@@ -23,5 +24,7 @@
 		return () => data.subscription.unsubscribe();
 	});
 </script>
+
+<Toaster />
 
 <slot />
