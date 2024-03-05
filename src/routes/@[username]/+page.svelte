@@ -35,7 +35,7 @@
 	});
 </script>
 
-<div class="front-content-height inline-flex items-center justify-start gap-2.5 bg-slate-950 p-2">
+<div class="front-content-height inline-flex items-center justify-start gap-2.5 p-2">
 	<div class="inline-flex w-64 flex-col items-center justify-start gap-2.5 self-stretch p-2.5">
 		<!-- svelte-ignore a11y-missing-attribute -->
 		<Avatar.Root class="h-56 w-56">
