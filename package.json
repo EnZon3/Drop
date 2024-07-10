@@ -39,6 +39,7 @@
 	"dependencies": {
 		"@supabase/auth-helpers-sveltekit": "^0.12.0",
 		"@supabase/supabase-js": "^2.39.3",
+		"@sveltejs/adapter-vercel": "^5.4.1",
 		"@vercel/analytics": "^1.1.2",
 		"bits-ui": "^0.16.0",
 		"clsx": "^2.1.0",

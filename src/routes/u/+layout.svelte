@@ -96,6 +96,6 @@
 	</DropdownMenu.Root>
 </nav>
 
-<div class="bg-grey p-4">
+<div class="bg-grey p-4 flex flex-col">
 	<slot />
 </div>

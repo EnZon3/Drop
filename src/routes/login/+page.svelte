@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { NEXT_PUBLIC_SITE_URL, NEXT_PUBLIC_VERCEL_URL } from '$env/static/private';
 	import { Button } from '$lib/components/ui/button';
 	import * as Card from '$lib/components/ui/card';
 	import { Github } from 'lucide-svelte';
