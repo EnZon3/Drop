@@ -54,7 +54,7 @@
 		</div>
 		<div class="flex h-4 flex-col items-start justify-start gap-2.5 self-stretch px-2.5">
 			<div class="text-center font-['Inter'] text-xs font-normal leading-none text-white">
-				{profile?.bio || 'No bio availabe'}
+				{profile?.bio || 'No bio available'}
 			</div>
 		</div>
 	</div>
